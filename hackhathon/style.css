@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    
+    
+}
+body{
+    background-color: rgb(113, 97, 97);  
+}
+.header{
+    display: flex;
+    align-items: flex-start;
+    padding:20px;
+    border:1px solid black;
+    margin:20px;
+    position: relative;
+}
+.header img{
+    border: 2px solid black;
+    border-radius: 33px;
+    margin: 6px;
+}
+img{
+    max-width: 150px;
+    margin-right: 20px;
+}
+.btn{
+    max-width: 400px;
+    padding-left: 1100px;
+}
+.btn h1{
+    margin-top: 0;
+}
+.text p{
+    /* margin-bottom: 0; */
+    
+    font-size: 29px;
+    margin: 0 239px;
+    padding-bottom: 10px;
+}
+.login{
+    background-color: pink;
+    padding: 7px 12px;
+    
+    width: 131%;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    align-self: flex-end;
+    margin: 10px;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 13px;
+    margin: 0 131px
+}
+
+
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 149px;
+}
+
+.navbar-item {
+    margin-left: 1.5rem;
+    
+    background-color: pink;
+    padding: 6px 2px;
+    border: 2px solid black;
+    border-radius: 7px;
+    color: black;
+    
+
+}
+
+.navbar-item a {
+    color: black;
+    text-decoration: none;
+    
+    transition: color 0.3s;
+    font-size: 17px;
+    
+}
+.navbar-item a:hover {
+  color:#ddd;
+}
+select{
+    
+    background-color: #000;
+    color:white;
+    
+    
+}
+select option{
+    background-color: black;
+    color:white;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro {
+    /* text-align: center; */
+    margin-top: 50px;
+    margin-left: 59px;
+}
+
+#click{
+    cursor: pointer;
+    font-size: 20px;
+    /* color: blue; */
+    transition: color 0.3s;
+}
+
+#click:hover {
+    font-size: 22px;
+}
+
+.form{
+    max-width: 39%;
+    margin-top: 66px;
+    padding:45px;
+   
+    
+    margin-left: 74px;
+    font-size: 20px;
+    background-color:white;
+    border:1px solid black;
+    border-radius: 13px;
+
+    flex:1;
+    margin-right: 20px;
+    
+}
+.form button{
+    font-size: 26px;
+    align-items: center;
+    margin-top: 10px;
+    background-color: pink;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 165px;
+    margin-top: 40px;
+    padding: 10px 15px;
+}
+.video{
+    flex:1;
+    text-align: right;
+}
+.video img{
+    max-width: 75%;
+    height:auto;
+    margin-top:65px;
+    margin-right: 52px;
+    border:1px solid black;
+    border-radius: 12px;
+}
